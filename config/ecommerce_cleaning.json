@@ -1,0 +1,10 @@
+{
+    "strip_strings": [
+        "Product Category",
+        "Payment Method",
+        "Customer Name",
+        "Gender"
+    ],
+
+    "remove_duplicates": true
+}

@@ -1,0 +1,48 @@
+{
+    "required_columns": [
+        "Customer ID",
+        "Purchase Date",
+        "Product Category",
+        "Product Price",
+        "Quantity",
+        "Total Purchase Amount",
+        "Payment Method",
+        "Customer Age",
+        "Returns",
+        "Customer Name",
+        "Age",
+        "Gender",
+        "Churn"
+    ],
+
+    "nullable_columns":[
+        "Returns"
+    ],
+
+     "column_types": {
+        "Customer ID": "int64",
+        "Purchase Date": "str",
+        "Product Category": "str",
+        "Product Price": "int64",
+        "Quantity": "int64",
+        "Total Purchase Amount": "int64",
+        "Payment Method": "str",
+        "Customer Age": "int64",
+        "Returns": "float64",
+        "Customer Name": "str",
+        "Age": "int64",
+        "Gender": "str",
+        "Churn": "int64"
+    },
+
+    "allowed_values": {
+        "Gender": ["Male", "Female"],
+        "Churn": [0, 1],
+        "Product Category": [
+            "Electronics",
+            "Home",
+            "Books",
+            "Clothing"
+        ]
+    }
+}
